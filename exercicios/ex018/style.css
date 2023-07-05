@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+  background-color: #aa8cfc;
+}
+
+h1 {
+  color: #2b1569;
+}
+
+h1#main-h1 {
+  text-align: center;
+  color: white;
+  background-color: #2b1569;
+}
+
+h2 {
+  color: #422590;
+
+}
+
+p {
+  text-align: justify;
+  text-indent: 20px;
+}
+

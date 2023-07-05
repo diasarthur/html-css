@@ -1,0 +1,36 @@
+a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+a {
+  color: #881aef;
+  text-decoration: none;
+}
+
+a:visted {
+  color: #441272;
+}
+
+
+a:hover {
+
+  zoom: 135%;
+}
+
+a::before {
+  content: '!! ';
+}
+
+a::after {
+  content: ' [link]';
+  color: #642e97;
+}
+
