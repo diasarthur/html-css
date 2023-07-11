@@ -57,20 +57,39 @@ section {
     padding-left: 35px;
 }
 
+section p {
+    padding-bottom: 2em;
+}
+
 .no-image {
     background-color: white;
     color: black;
 }
 
 .paralax {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.458);
     background-color: rgb(59, 59, 59);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .paralax p {
-    padding: 8px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.253);
+    padding: 15px;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.209);
+    background-color: rgba(0, 0, 0, 0.576);
+}
+
+#img1 {
+    background-image: url('./imagens/background001.jpg');
+    background-position: right center;
+
+}
+
+#img2 {
+    background-image: url('./imagens/background002.jpg');
+
 }
 
 footer {
